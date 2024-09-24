@@ -1,0 +1,377 @@
+body{
+    width: 90%;
+    background-image: url("../Images/3.jpg") ;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 80% 90%;
+}
+
+.headsec-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+header{
+    margin-top: 33.5px;
+   width: 86%;
+   margin-left: 155px;
+    
+    
+}
+.headsec-1-top{
+    text-align: end;
+}
+.icons{
+    padding-right: 20px;
+    margin-top: 8px;
+}
+.icons a{
+    padding: 15px;
+
+}
+.profile{
+    margin: 50px 20px 10px 0px;
+    color: white;
+}
+.headsec-2{
+    background-color: rgb(247, 239, 239);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.headsec-2 a{
+    text-decoration: none;
+    color:black;
+    
+}
+.headsec-2 a:hover{
+    box-shadow: inset 0 0 10px #F7EFEF;
+}
+.navbar a{
+ padding-left: 60px;
+}
+.navbar{
+    padding: 10px;
+}
+#home_banner{
+    width: 100%;
+    height:220px;
+}
+.home_banner_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 86%;
+   margin-left: 155px;
+   background-color:rgba(0,0,0,0.5);
+   border-bottom: 2px solid white;
+
+}
+.home_banner_1_info{
+    text-align: center;
+    color: white;
+    padding-top:20px;
+
+}
+
+.home_banner_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 86%;
+    margin-left: 155px;
+    border-bottom: 2px solid white;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+}
+.home_banner_2_info{
+    
+    padding-top: 60px;
+    
+    padding-left: 60px;
+}
+.home_banner_2_img{
+    padding:10px 90px;
+}
+.home_banner_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 86%;
+    margin-left: 155px;
+    background-color: rgba(0,0,0,0.5);
+    color: white ;
+
+}
+.home_banner_3_info{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+
+}
+.laptop_products{
+    display: flex;
+    width: 86%;
+    margin-left: 155px;
+    
+
+}
+.card{
+ width:300px;
+ background-color: rgb(241, 235, 235);
+ padding: 10px;
+ margin-right: 20px;
+
+}
+.card img{
+    width: 310px;
+
+}
+.products_heading{
+    width: 86%;
+    margin-left: 155px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+footer{
+    width: 86%;
+    margin-left: 155px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Gallery page*/
+
+
+.main_products{
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 86%;
+    margin-left: 155px;
+
+}
+.Cameras img{
+    padding: 20px;
+}
+.main_products .Categories p{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.main_products .Categories p img{ 
+    width: 20px;
+    height:12px;
+    
+
+}
+.main_products .Categories{
+    background-color:rgba(0,0,0,0.5);
+}
+.Categories{
+ padding-right:30px;
+ padding-left: 10px;
+ color: white;
+ margin-top: 0px;
+}
+.list-of-cameras{
+    background-color: rgba(0,0,0,0.5);
+    margin-right: 5px;
+    margin-top: 18px;
+    color: white;
+}
+.list-of-cameras h2{
+    background-color: black;
+    margin-top: 0px;
+    padding: 8px;
+}
+.bookstore{
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    margin-top:50px ;
+}
+
+.payment{
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+
+
+/*contact us page*/
+.contactUs{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    
+}
+.form{
+    
+    width: 300px;
+    text-align: right;
+    
+
+}
+.form input,textarea{
+    width: 100%;
+    margin: 3px;
+}
+.Contact-label{
+    width: 200px;
+    
+}
+
+/*about us */
+
+.aboutus{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 86%;
+    margin-left: 155px;
+    text-align: center;
+
+}
+.aboutus h3{
+ background-color: black;
+ padding: 8px;
+}
+.aboutus p{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    * {
+        box-sizing: border-box; /* Ensures padding/border are included in width/height */
+    }
+
+    header, .home_banner_1, .home_banner_2, .home_banner_3, .laptop_products, .products_heading, footer, .main_products, .aboutus {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .headsec-1 {
+        display: block; /* Stack elements vertically */
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile, .icons {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .icons a {
+        padding: 10px;
+    }
+
+    .navbar {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .home_banner_2_info, .home_banner_2_img, .home_banner_3_info {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form input, .form textarea {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .Categories p {
+        font-size: 14px;
+    }
+
+    .list-of-cameras {
+        overflow-x: auto; /* Allows horizontal scrolling if necessary */
+    }
+
+    .list-of-cameras img {
+        max-width: 100%;
+    }
+}
